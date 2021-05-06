@@ -1,0 +1,25 @@
+:root {
+  --primaryColor: green;
+}
+
+body {
+  margin: 2rem;
+}
+
+.global {
+  color: green;
+  text-transform: capitalize;
+}
+
+/* css variables can be used in styled-components as well*/
+
+.first {
+  letter-spacing: 5px;
+  color: var(--primaryColor);
+}
+
+/* some other css */
+.second {
+  text-transform: uppercase;
+  color: var(--primaryColor);
+}
