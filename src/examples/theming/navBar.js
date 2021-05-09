@@ -11,8 +11,6 @@ export const NavBar = ({ children }) => {
   );
 };
 
-export default NavBar;
-
 const NavbarWrapper = styled.nav`
   background: ${(props) => props.theme.primaryColor};
   ${(props) => `color: ${props.theme.secondaryColor}`};
@@ -21,3 +19,5 @@ const NavbarWrapper = styled.nav`
   display: flex;
   justify-content: space-between;
 `;
+
+export default NavBar;

@@ -1,10 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-export const Content = ({ className }) => {
+
+
+const Content = ({ className }) => {
   return (
     <section className={className}>
       <h1> Section Titles</h1>
-      <p>lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+        magnam vero, repellat perspiciatis culpa rem, harum earum veniam
+        blanditiis cum, nemo dicta voluptate voluptatem quas iste nulla
+        doloribus possimus adipisci.</p>
     </section>
   );
 };
